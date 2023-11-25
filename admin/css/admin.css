@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@1,200&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../image/blue-gradient.jpg");
+  background-size: cover;
+}
+
+.navbar {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid greenyellow; */
+  margin: 2% auto;
+  width: 90%;
+  border-radius: 4rem;
+  height: 150px;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  border: 1px solid rgb(12, 29, 105);
+  transition: 500ms ease-in;
+}
+
+.navbar:hover {
+  box-shadow: 4px 4px #def12a;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__title {
+  /* border: 5px solid red; */
+  font-size: 3rem;
+  align-items: center;
+  color: white;
+  display: block;
+  margin: auto;
+  /* width: 50%; */
+  /* padding: 35%; */
+  width: 100%;
+  font-family: "Space Grotesk", sans-serif;
+  cursor: pointer;
+}
+
+.header {
+  /* border: 5px solid red; */
+  color: white;
+  width: 30%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.header > h3 {
+  font-size: 1.5rem;
+  font-family: "Sarabun", sans-serif;
+  margin: 0.5rem;
+}
+
+.header > h4 {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-family: "Sarabun", sans-serif;
+  transition: 200ms ease-in-out;
+  /* padding: 10px; */
+  border-radius: 50px;
+
+  /* text-decoration: none; */
+}
+
+header h4 a {
+  text-decoration: none;
+}
+
+.header > h4:hover {
+  /* background-color: rgba(98, 105, 29, 0.781); */
+  box-shadow: 2px 4px white;
+  transform: translateY(-2px);
+}
+
+#logout {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-family: "Sarabun", sans-serif;
+  transition: 200ms ease-in-out;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+#logout > a {
+  text-decoration: none;
+  color: white;
+}
+
+#logout:hover {
+  background-color: rgba(189, 15, 15, 0.78);
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+#acp {
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-family: "Sarabun", sans-serif;
+  transition: 200ms ease-in-out;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+#acp > a {
+  text-decoration: none;
+  color: white;
+}
+
+#acp:hover {
+  background-color: rgba(189, 15, 15, 0.78);
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000,
+      0 0 40px #e62300, 0 0 50px #e61b00, 0 0 60px #e61b00, 0 0 70px #e60000;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #f80a02,
+      0 0 50px #ee0808, 0 0 60px #e22c0c, 0 0 70px #e04e14, 0 0 80px #ce7f08;
+  }
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  /* border: 1px solid red; */
+  margin: 5% auto;
+}
+
+.card {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 15%;
+  margin: 2% auto;
+  padding: 5% auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  transition: 300ms ease-in-out;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 3px 3px 42px 9px rgba(0, 0, 0, 0.66);
+  transform: translateY(-20px);
+}
+
+.card2 {
+  padding: 10%;
+}
+
+.card3 {
+  padding: 10%;
+}

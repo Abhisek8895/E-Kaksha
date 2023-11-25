@@ -1,0 +1,44 @@
+1. Faculty login
+2. Super admin
+3. Teacher can only add his/her subject notes
+4. Add/edit meeting links
+5. Rename table to subject
+6. Change the theme(Dark is bad)
+7. Static notice board on homescreen(suggestion)
+8. Assign particular subject to teacher
+9. Verification after registration by super admin
+
+	TO BE DONE BY J.ANUBHAB NAYAK (FRONT END DEVELOPER)
+      ------------------------------------------------------
+1.Change karibu jmty mo laptop re sabu thik thak aasiba
+2.Change the color of nav bar
+3.Log in page ru log-in success ra alert box kadhibu
+	   STUDENT COMPONENT
+	----------------------
+4.Nav bar ra content ku thik karibu
+5.Note Show Part ta thik karibu
+6.Notice part ra nav bar aau body part ku sundar karibu
+	   TEACHER COMPONENT
+	---------------------
+7.Home page ra navbar
+8.Class bhitare class name guda tk sundar kariki sajeibu
+9.Taa side re add aau join button ku bi sajeibu
+10.Add click kale jou form aasiba seta link karibu aau taara backend bi baneibu
+11.Notes bhitare subject ku click kale gote input field aau gote button aasiba taku tike thik thak kariki rakhibu
+12.Notice re add button ta 'Notice Board' division ra end re rahiba aau taara input filed ta bi tk sundar kari daba
+13.Notice ra nav-bar
+14.Notice ku tk marquee tag lageiba (jouta tame class kari nathila boli jani pari nathila)
+15.Adhika notice add hele ki jaha bi data add hele background image ta repeat hauchi taku thik kariba(GLOBALLY)
+
+	  ADMIN COMPONENT
+	------------------
+16. Mo lappy re admin control pannel 2 ta line re aasuchi setaku thik karibu(Admin's globally)
+17. verify sudent ta tk sundar kariba
+18. Manage teacher profile re teacher name talu subject tag ta kadhi daba
+19. Assign subject ra allocate button ta tk sundar kariba
+20. Allocate upare click kale jou dropdown ta aasuchi se box ta tk sundar kariba
+21. Ta upare subject gudaka tk sundar kari dabu 
+22.Same as point :- 12, 13, 14, 15
+
+		---------x----------x------------
+		Time upto :- 10:00 PM

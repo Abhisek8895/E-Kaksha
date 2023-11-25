@@ -1,0 +1,59 @@
+body{
+    background-image: url("../images/blue-gradient.jpg");
+    background-size: cover;
+    padding:100px;
+    margin: 5px;
+    font-family:'Arial';
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -60px;
+    color: black;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.class{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    padding: 80px;
+    border-radius: 50px;
+    background-color:rgb(65, 178, 243);
+
+}
+
+label{
+    color:black ;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#class_link{
+    width: 400px;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+}
+
+#timming{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400px;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    text-align: center;
+    color:white;
+    font-weight:bolder;
+    font-size: medium;
+    background-color:rgb(30, 28, 28);
+    border:10px;
+    border-radius: 16px;
+}
